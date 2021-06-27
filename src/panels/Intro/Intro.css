@@ -1,0 +1,39 @@
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 80vh;
+}
+
+.intro-logos {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: replacementLogo 2s step-end forwards;
+}
+
+@keyframes replacementLogo {
+    0% {
+        background-image: url(../../img/VK.png);
+    }
+
+    25% {
+        background-image: url(../../img/Pause.png);
+    }
+
+    50% {
+        background-image: url(../../img/DOTA.png);
+    }
+
+    75% {
+        background-image: url(../../img/Pause.png);
+    }
+
+    100% {
+        background-image: url(../../img/VK.png);
+
+    }
+}

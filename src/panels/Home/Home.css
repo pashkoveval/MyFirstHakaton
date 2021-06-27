@@ -1,0 +1,11 @@
+.tab-text {
+    color: #000;
+    font-size: 12px;
+}
+
+.tab-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
